@@ -1,0 +1,55 @@
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+/* Logo */
+.App-logo {
+  height: 40vmin;
+}
+
+/* Header */
+.App-header {
+  background-color: #282c34;
+  /*min-height: 100vh;*/
+  /*display: flex;*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Link */
+.App-link {
+  color: #09d3ac;
+}
+
+/* Left Aligned Map */
+.innerMap {
+  width: 75% !important;
+  background-color: #282c34;
+}
+
+/* Search Input Text Box*/
+.searchDiv {
+  width: 95%;
+  height: 60%;
+  position: relative;
+  top: 15%;
+  text-indent: 5%;
+}
+
+.line {
+  right: 5%;
+}
+
+.line.vertical {
+  right: 22px;
+}
+
+.vertical {
+  transform: rotate(90deg);
+  margin-top: 1px;
+}
