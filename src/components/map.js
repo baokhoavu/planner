@@ -61,9 +61,6 @@ class MapContainer extends Component {
             // Map Component 
             <div id="map" className="map">
 
-              {/* Page Title */}
-              Map
-
               {/* Map Library*/}
               <Map 
                 className="innerMap"
