@@ -15,12 +15,14 @@ class MapContainer extends Component {
 
         this.state = {
             stores: [
-                {latitude: 33.986903, longitude: -117.907868},
-                {latitude: 33.9759423, longitude: -117.921071},
-                {latitude: 33.9192687988, longitude: -117.888426208496},
-                {latitude: 33.91307081, longitude: -117.91434325},
-                {latitude: 33.93084488, longitude: -117.92140121},
-                {latitude: 33.95524695, longitude: -117.90425407}
+                {latitude: 33.993422, longitude: -117.902425},
+                {latitude: 33.994501, longitude: -117.898709},
+                {latitude: 33.990203, longitude: -117.921985},
+                {latitude: 33.986868, longitude: -117.890626},
+                {latitude: 33.985936, longitude: -117.870431},
+                {latitude: 33.989187, longitude: -117.905821},
+                {latitude: 33.987194, longitude: -117.906248},
+                {latitude: 33.990580, longitude: -117.921351}
             ],
 
             location: []

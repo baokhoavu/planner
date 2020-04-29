@@ -240,7 +240,7 @@ export default class Map extends Component {
               </div>
               <div>
                 <h2>
-                    Moodaepo / <span className="kbbq">Korean BBQ</span>
+                    Thirsty Cow / <span className="kbbq">Korean BBQ</span>
                 </h2>
                 <p>
                     AYCE KBBQ with generous meat
