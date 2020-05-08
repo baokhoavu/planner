@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { render } from 'react-dom';
-import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+import { Map, GoogleApiWrapper, Marker, InfoWindow } from 'google-maps-react';
 
 const mapStyles = {
     width: '75%',
@@ -74,14 +74,18 @@ class MapContainer extends Component {
 
                 {/* Render Array */}
                 {this.state.stores.map((m, i) => (
-                  <Marker 
-                    key={i}
-                    id={i}
-                    position={{
-                      lat: m.latitude,
-                      lng: m.longitude
-                    }}
-                  />
+                    <Marker
+                        key={i}
+                        id={i}
+                        position={{
+                            lat: m.latitude,
+                            lng: m.longitude
+                        }}
+                    >
+                    <InfoWindow>
+                        <span>Something</span>
+                    </InfoWindow>
+                    </Marker>
                 ))}
 
               </Map>
