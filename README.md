@@ -1,3 +1,7 @@
+## Planner
+
+This is a Palnner that has popular places around Rowland Heights. This includes loyal food and beverage places offered on yelp. Using Google Maps API, we're able to display a map.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
